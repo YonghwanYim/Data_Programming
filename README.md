@@ -1,2 +1,2 @@
 # Data_Programming
-Hongik University, Class Practice (R)
+Hongik University, Homework (R)
