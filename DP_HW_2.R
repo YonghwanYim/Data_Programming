@@ -30,7 +30,7 @@ NAME <- c('Wang', 'Lee', 'Kim', 'Song', 'Gong', 'Park', 'Kim', 'Jo', 'Lee', 'Gi'
 SEX <- c('F', 'M', 'F', 'M', 'F', 'M', 'F', 'M', 'F', 'M'); SEX
 ENG <- c(95, 80, 90, 70, 65, 80, 95, 45, 30, 70); ENG
 MATH <- c(80, 90, 90, 95, 75, 45, 100, 95, 70, 75); MATH
-sample03 <- data.frame(cbind(ID, SEX, ENG, MATH), stringsAsFactors = F); sample03
+sample03 <- data.frame(cbind(ID, NAME, SEX, ENG, MATH), stringsAsFactors = F); sample03
 class(sample03$ENG)
 sample03$ENG <- as.numeric(sample03$ENG);
 sample03$MATH <- as.numeric(sample03$MATH); 
