@@ -35,6 +35,7 @@ class(sample03$ENG)
 sample03$ENG <- as.numeric(sample03$ENG);
 sample03$MATH <- as.numeric(sample03$MATH); 
 sample03$Average <- (sample03$ENG + sample03$MATH) / 2; sample03
+# sample03$Average <- apply(sample03[4:5], 1, mean); sample03  
 
 # Ex 2-2.
 sample03[sample03$Average >= 80, ]
