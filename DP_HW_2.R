@@ -110,6 +110,7 @@ list1 <- list(setosa = sample07[[1]]$Sepal.Width,
               versicolor = sample07[[2]]$Sepal.Width,
               virginica = sample07[[3]]$Sepal.Width); list1
 lapply(list1, mean) 
+# lapply(split(iris$Sepal.Width, iris$Species), mean)
 
 # Ex 9-3.
 tapply(iris$Sepal.Length, iris$Species, mean)
