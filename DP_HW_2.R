@@ -134,6 +134,7 @@ aggregate(mpg ~ am + cyl, mtcars, mean)
 sample10 <- data.frame(aggregate(mpg ~ am + cyl, mtcars, mean))
 sample10$wt <- aggregate(wt ~ am + cyl, mtcars, mean)$wt
 sample10
+# aggregate(cbind(mpg, wt) ~ am + cyl, mtcars, mean)
 
 # Ex 11-3.
 table(mtcars$cyl)
