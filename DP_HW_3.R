@@ -144,9 +144,11 @@ colnames(sample06) <- c('A', 'B', 'C', 'D', 'E'); sample06
 
 # Ex 6-2.
 x <- apply(sample06, 1, sum); x
+# x <- margin.table(sample06, 1); x
 
 # Ex 6-3.
 y <- apply(sample06, 2, sum); y
+# y <- margin.table(sample06, 2); y
 
 # Ex 6-4.
 par(mfrow = c(2, 2))
